@@ -17,3 +17,4 @@ matplotlib.rcParams['font.family'] = 'sans-serif'
 df=pd.read_csv('../input/textdb3/fake_or_real_news.csv')
 print(df.shape)
 df.head()
+print()
