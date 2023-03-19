@@ -21,3 +21,6 @@ labels=df.label
 labels.head()
 target=df.label.value_counts()
 target
+#plotting in a graph
+sns.countplot(df.label)
+plt.title('the number of news fake/real');
