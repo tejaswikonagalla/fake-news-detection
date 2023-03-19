@@ -14,3 +14,6 @@ sns.set(context='notebook', style='darkgrid', font='sans-serif', font_scale=1, r
 matplotlib.rcParams['figure.figsize'] =[20,8]
 matplotlib.rcParams.update({'font.size': 15})
 matplotlib.rcParams['font.family'] = 'sans-serif'
+df=pd.read_csv('../input/textdb3/fake_or_real_news.csv')
+print(df.shape)
+df.head()
