@@ -1,0 +1,16 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib
+import seaborn as sns
+import itertools
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import PassiveAggressiveClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix
+plt.style.use('ggplot')
+sns.color_palette("tab10")
+sns.set(context='notebook', style='darkgrid', font='sans-serif', font_scale=1, rc=None)
+matplotlib.rcParams['figure.figsize'] =[20,8]
+matplotlib.rcParams.update({'font.size': 15})
+matplotlib.rcParams['font.family'] = 'sans-serif'
